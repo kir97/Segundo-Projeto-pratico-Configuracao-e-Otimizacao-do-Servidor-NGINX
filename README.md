@@ -1,4 +1,4 @@
-## <i> Projeto pratico Configuração e Otimização do Servidor NGINX </i>
+# <i> Projeto pratico Configuração e Otimização do Servidor NGINX </i>
 ***
 <b>2º Projeto Prático - DevOps</b>
 ***
