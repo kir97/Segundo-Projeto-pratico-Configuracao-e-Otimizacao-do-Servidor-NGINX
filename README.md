@@ -1,3 +1,5 @@
+<meta charset="UTF-8">
+
 # <i> Projeto pratico Configuração e Otimização do Servidor NGINX </i>
 ***
 <b>2º Projeto Prático - DevOps</b>
@@ -140,3 +142,8 @@ para listar todos os containers tanto os ativos quanto os inativos com seus resp
 - [NGINX: servidor Web, Proxy Reverso e API Gateway](https://www.alura.com.br/conteudo/nginx-servidor-web-proxy-reverso-api-gateway)
 - [Instalando certificado SSL auto assinado no linux](https://ajudadoprogramador.com.br/artigo/certificado-auto-assinado-no-linux)
 - [Pagina de onde tirei a pagina de erro 404](https://codepen.io/uiswarup/pen/XWdXGGV)
+#   S e g u n d o - P r o j e t o - p r a t i c o - C o n f i g u r a c a o - e - O t i m i z a c a o - d o - S e r v i d o r - N G I N X 
+ 
+ #   S e g u n d o - P r o j e t o - p r a t i c o - C o n f i g u r a c a o - e - O t i m i z a c a o - d o - S e r v i d o r - N G I N X 
+ 
+ 
