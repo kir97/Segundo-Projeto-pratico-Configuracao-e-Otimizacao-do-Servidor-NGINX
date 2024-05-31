@@ -1,5 +1,3 @@
-<meta charset="UTF-8">
-
 # <i> Projeto pratico Configuração e Otimização do Servidor NGINX </i>
 ***
 <b>2º Projeto Prático - DevOps</b>
