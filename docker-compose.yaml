@@ -1,0 +1,24 @@
+version: '3.5'
+
+services:
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx_server
+    ports:
+      - '8080:8080'
+      - '8088:8088'
+      - '8089:8089'
+      - '443:443'
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./load-balancer.conf:/etc/nginx/load-balancer.conf
+      - ./nginx/html:/usr/share/nginx/html
+      - ./nginx/servers/microservices/html:/usr/share/nginx/microservices/html
+      - ./nginx/servers/microservices/pagina1.conf:/etc/nginx/pagina1.conf
+      - ./nginx/servers/microservices/pagina1/html:/usr/share/nginx/microservices/pagina1/html
+      - ./nginx/servers/microservices/pagina2.conf:/etc/nginx/pagina2.conf
+      - ./nginx/servers/microservices/pagina2/html:/usr/share/nginx/microservices/pagina2/html
+      - ./ssl/localhost.key:/etc/nginx/ssl/localhost.key;
+      - ./ssl/novo_cert.crt:/etc/nginx/ssl/novo_cert.crt;
+      
